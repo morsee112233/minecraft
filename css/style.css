@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  .container {
+    width: 930px;
+    margin: 0 auto;
+  }
+  header {
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+    height: 1140px;
+  }
+  nav{
+    padding: 40px 0 40px 0;
+    border-bottom: 1px solid #A1A1A1;
+  }
+  ul.menu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  li.menu-item{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 16,5px;
+  }
+  li.menu-item>a{
+    text-decoration: none;
+    Font Size: 16px;
+  Line Height: 19.5px;
+  color: #FFFFFF;
+  }
+  .content-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 219px;
+  }
+  .mini-zagolovok{
+    Line Height: 19.5px;
+    Line Height: 100%;
+    Align: Center;
+    Vertical Align: Top;
+    Fill: Solid;
+    color: #FFFFFF;
+    font-family: sans-serif;
+  }
+  .main-zagolovok{
+  font-weight:800px;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  .btn{
+  background: blue;
+  box-shadow: 0px 0px 10px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500px;
+  color:#FFFFFF;
+  width: 200px;
+  height: 50px;
+  }
+  .btn-header{
+    margin-top:50px;
+  }
+  .razdel-1{
+    background: #FFFFFF;
+    width: 1920px;
+    height: 797px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 219px;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  .about{
+    position: absolute;
+  width: 739px;
+  height: 88px;
+  left: 590px;
+  top: 900px;
+  font-family: sans-serif;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center
+  }
+  .pod-about{
+    position: absolute;
+  width: 730px;
+  height: 41px;
+  left: 595px;
+  top: 1050px;
+  }
+  .picture{
+    position: absolute;
+    top:1140px;
+    left: 200px;
+  }
+  .sozdanie{
+    position: absolute;
+  width: 226px;
+  height: 23px;
+  left: 432px;
+  top: 1225px;
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  }
+  .tekst{
+    position: absolute;
+    width: 222px;
+    height: 58px;
+    left: 433px;
+    top: 1255px;
+  }
+  .picture1{
+    position: absolute;
+  top:1140px;
+  left: 700px;
+  }
+  .sozdanie1{
+    position: absolute;
+  width: 226px;
+  height: 23px;
+  left: 932px;
+  top: 1225px;
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  }
+  .tekst1{
+    position: absolute;
+    width: 222px;
+    height: 58px;
+    left: 933px;
+    top: 1255px;
+  }
+  .picture2{
+    position: absolute;
+  top:1140px;
+  left: 1200px;
+  }
+  .sozdanie2{
+    position: absolute;
+  width: 226px;
+  height: 23px;
+  left: 1432px;
+  top: 1225px;
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  }
+  .tekst2{
+    position: absolute;
+    width: 222px;
+    height: 58px;
+    left: 1433px;
+    top: 1255px;
+  }
+  .knopka{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 860px;
+    top: 1380px;
+    background: blue;
+    box-shadow: 0px 0px 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500px;
+    color:#FFFFFF;
+    width: 200px;
+    height: 50px;
+  }
+  .razdel-2{
+    background:#F6F6F8;
+    width: 1920px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 219px;
+    font-family: 'Montserrat', sans-serif;
+  width: 1920px;
+  height: 700px;
+  padding: 40px 0 40px 0;
+  border-bottom: 1px solid #A1A1A1;
+  }
+  .standart{
+    position: absolute;
+  width: 424px;
+  height: 88px;
+  left: 405px;
+  top: 2055px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #323232;
+  }
+  .razdel-2-foto{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 1015px;
+    top: 1950px;
+  }
+  .tekst-razdel-2{
+    position: absolute;
+    width: 489px;
+    height: 117px;
+    left: 405px;
+    top: 2200px;
+  }
+  .foto-2-razdel-2{
+    position: absolute;
+  width: 54px;
+  height: 35px;
+  left: 1025px;
+  top: 2360px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1000px;
+  line-height: 53px;
+  }
+  .foto2-2-razdel-2{
+    position: absolute;
+  width: 54px;
+  height: 35px;
+  left: 1130px;
+  top: 2360px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1000px;
+  line-height: 53px;
+  }
+  .foto3-2-razdel-2{
+    position: absolute;
+  width: 54px;
+  height: 35px;
+  left: 1235px;
+  top: 2360px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1000px;
+  line-height: 53px;
+  }
+  .foto4-2-razdel-2{
+    position: absolute;
+  width: 54px;
+  height: 35px;
+  left: 1340px;
+  top: 2360px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1000px;
+  line-height: 53px;
+  }
+  .foto5-2-razdel-2{
+    position: absolute;
+  width: 54px;
+  height: 35px;
+  left: 1450px;
+  top: 2360px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1000px;
+  line-height: 53px;
+  }
+  .podrobnee{
+    color: #4985FF;
+    position: absolute;
+  width: 202px;
+  height: 20px;
+  left: 405px;
+  top: 2330px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  }
+  .razdel-3{
+    background: url(../img/fon-razdel-3.png);
+    position: absolute;
+    width: 1920px;
+    height: 887px;
+    left: 0px;
+    top: 2500px;
+  }
+  .tekst1-razdel-3{
+    position: absolute;
+width: 540px;
+height: 88px;
+left: 405px;
+top: 100px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+color: #FFFFFF;
+  }
+  .knopka-razdel-3{
+    position: absolute;
+width: 200px;
+height: 45px;
+left: 1315px;
+top: 140px;
+background: #4985FF;
+border-radius: 30px;
+  }
+  
+  .foto1-razdel-3{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 405px;
+    top: 250px;
+  }
+  .foto2-razdel-3{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 785px;
+    top: 250px;
+  }
+  .foto-razdel-3{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 1165px;
+    top: 250px;
+  }
+  .mini-zagolovok-razdel-3{
+    position: absolute;
+    width: 281px;
+    height: 17px;
+    left: 408px;
+    top: 580px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #4985FF;
+  }
+  .mini1-zagolovok-razdel-3{
+    position: absolute;
+    width: 281px;
+    height: 17px;
+    left: 785px;
+    top: 580px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #4985FF;
+  }
+  .mini2-zagolovok-razdel-3{
+    position: absolute;
+    width: 281px;
+    height: 17px;
+    left: 1165px;
+    top: 580px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #4985FF;
+  }
+.tekst2-razdel-3{
+  position: absolute;
+  width: 350px;
+  height: 117px;
+  left: 1165px;
+  top: 630px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px; 
+  color: #999999
+  }
+  .tekst3-razdel-3{
+    position: absolute;
+    width: 350px;
+    height: 117px;
+    left: 785px;
+    top: 630px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px; 
+    color: #999999
+    }
+    .tekst4-razdel-3{
+      position: absolute;
+      width: 350px;
+      height: 117px;
+      left: 410px;
+      top: 630px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px; 
+      color: #999999
+      }
+      .podrobnee-razdel-3{
+        position: absolute;
+width: 97px;
+height: 20px;
+left: 1165px;
+top: 780px;
+color: #4985FF;
+}
+.podrobnee1-razdel-3{
+  position: absolute;
+width: 97px;
+height: 20px;
+left: 785px;
+top: 780px;
+color: #4985FF;
+}
+.podrobnee2-razdel-3{
+  position: absolute;
+width: 97px;
+height: 20px;
+left: 405px;
+top: 780px;
+color: #4985FF;
+border: 1px solid #E0E0E0;
+}
+.razdel-4{
+  background: #f6f6f8;
+  position: absolute;
+width: 1920px;
+height: 776px;
+left: 0px;
+top: 3372px;
+}
+.zagolovok-razdel-4{
+  position: absolute;
+width: 350px;
+height: 35px;
+left: 785px;
+top: 3472px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+}
+.tekst-razdel-4{
+  position: absolute;
+width: 730px;
+height: 41px;
+left: 595px;
+top: 3557px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+color: #999999;
+}
+.foto-razdel-4{
+  position: absolute;
+width: 255px;
+height: 255px;
+left: 405px;
+top: 3668px;
+background: url(../img/foto-razdel-4.png), #C4C4C4;
+border-radius: 10px;
+
+}
+.foto1-razdel-4{
+  position: absolute;
+width: 255px;
+height: 255px;
+left: 690px;
+top: 3668px;
+
+background: url(../img/foto-razdel-4.png), #C4C4C4;
+border-radius: 10px;
+}
+.foto2-razdel-4{
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  left: 975px;
+  top: 3668px;
+  
+  background: url(../img/foto-razdel-4.png), #C4C4C4;
+  border-radius: 10px;
+}
+.foto3-razdel-4{
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  left: 1260px;
+  top: 3668px;
+  
+  background: url(../img/foto-razdel-4.png), #C4C4C4;
+  border-radius: 10px;
+}
+.knopka-razdel-4{
+  position: absolute;
+width: 200px;
+height: 45px;
+left: 860px;
+top: 3973px;
+background: #4985FF;
+box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+border-radius: 30px;
+}
